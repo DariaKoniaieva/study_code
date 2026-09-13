@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #b5b9d2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+}
+
+h1 {
+    color:rgb(159, 24, 183)
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.ex3 {
+    font-style: italic;
+}
+
+.ligne2 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.dark-texte {
+    color: white;
+}
+
+.dark-bgc {
+    background-color: #202028;
+}
