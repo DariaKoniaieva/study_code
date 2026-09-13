@@ -1,0 +1,7 @@
+.form-section { max-width: 400px; margin: 40px auto; font-family: Arial, sans-serif; }
+.form-group { margin-bottom: 15px; display: flex; flex-direction: column; }
+.form-group input[type="text"] { padding: 8px; font-size: 1rem; margin-top: 5px; }
+.hidden { display: none; }
+.message { padding: 10px; margin-top: 15px; border-radius: 4px; font-weight: bold; }
+.error-msg { background-color: #f8d7da; color: #721c24; }
+.success-msg { background-color: #d4edda; color: #155724; }

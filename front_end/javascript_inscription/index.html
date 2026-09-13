@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 Ex 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <section class="form-section">
+    <h2>Inscription à la newsletter</h2>
+    <form id="signup-form">
+
+        <div class="form-group">
+            <label for="username">Votre pseudo :</label>
+            <input type="text" id="username" placeholder="Ex: MMI_Ninja">
+        </div>
+
+        <div class="form-group">
+            <label>
+                <input type="checkbox" id="cgu">
+                J'accepte les conditions générales d'utilisation
+            </label>
+        </div>
+        <div class="form-group">
+    <label for="profile">Votre profil principal :</label>
+    <select id="profile">
+        <option value="">-- Choisissez une option --</option>
+        <option value="web">Web & Développement</option>
+        <option value="design">Design & UI/UX</option>
+        <option value="com">Communication & Multimédia</option>
+    </select>
+</div>
+
+    <button type="submit">S'inscrire</button>
+
+    <!-- Zone pour afficher les messages d'alerte ou de succès -->
+    <p id="form-message" class="message hidden">Veuillez remplir tous les champs et accepter les CGU</p>
+    </form>
+</section>
+</body>
+</html>
