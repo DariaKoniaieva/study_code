@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+    <section class="form-section">
+        <h1>Mini-Quiz MMI : Culture web</h1>
+
+
+        <form id="quizz">
+            <ol>
+                <li>Que signifie le sigle HTML ?</li>
+                <div class="question">
+                    <input type="radio" name="question1" id="choix1-1" value="High Text Maximum Language">
+                    <label for="choix1-1">High Text Maximum Language</label>
+                </div>
+
+                <div class="question">
+                    <input type="radio" name="question1" id="choix2-1" value="HyperText Markup Language">
+                    <label for="choix2-1">HyperText Markup Language</label>
+                </div>
+
+                <div class="question">
+                    <input type="radio" name="question1" id="choix3-1" value="High Technical Modern Language">
+                    <label for="choix3-1">High Technical Modern Language</label>
+                </div>
+
+                <li>Que signifie le sigle « WWW » dans l'adresse d'un site internet ?</li>
+
+                <div class="question">
+                    <input type="radio" name="question2" id="choix1-2" value="Web World Wide">
+                    <label for="choix1-2">Web World Wide</label>
+                </div>
+
+                <div class="question">
+                    <input type="radio" name="question2" id="choix2-2" value="Wide Web World">
+                    <label for="choix2-2">Wide Web World</label>
+                </div>
+
+                <div class="question">
+                    <input type="radio" name="question2" id="choix3-2" value="World Wide Web">
+                    <label for="choix3-2">World Wide Web</label>
+                </div>
+
+                <li>Quele langage est utilisé pour sryliser les pages web ?</li>
+                <input type="text" name="question3" id="question-ouverte">
+            </ol>
+
+            <button type="submit">Valider mon score</button>
+        </form>
+
+        <p id="message-resultat" class="message hidden"> Bravo ! ton score: 3/3</p>
+    </section>
+
+
+</body>
+</html>
